@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>VERIFICADOR DE IDADE</h1>
+    </header>
+    <section>
+        <div>
+            <form>
+                <label>Ano de Nascimento:</label>
+                <input type="number" placeholder="EX: 2002" id="nasceu" min="0"> <br><br>
+                <label for="nasceu">Sexo</label>
+                <input type="radio" name="sexo" id="masc" value="masculino">Masculino
+                <input type="radio" name="sexo" id="fem" value="feminino">Feminino <br><br>
+                <button type="button" id="botao" onclick="verificar()">Verificar</button>
+            </form>
+            <div id="resul">
+                <h4 id="resultado">Preencha os dados acima para ver o resultado!</h4>
+            </div>
+        </div>
+    </section>
+
+
+
+<footer>
+    <a href="https://github.com/fgomesdev" target="_blank">@felipegomes</a>
+</footer>
+    <script src="index.js" defer></script>
+</body>
+</html>

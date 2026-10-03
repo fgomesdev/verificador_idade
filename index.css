@@ -1,0 +1,48 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+body{
+display: grid;
+place-items: center;
+background-color: rgb(42, 40, 51);
+gap: 80px;
+margin-top: 50px;
+}
+header{
+color: white;
+}
+section{
+background-color: rgb(76, 145, 111);
+height: 550px;
+width: 550px;
+padding: 15px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+#foto {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color:rgb(42, 40, 51);
+    text-align: center;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
