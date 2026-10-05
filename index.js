@@ -1,7 +1,7 @@
 function verificar()
 {
 document.getElementById('foto')?.remove();
-const ano = document.getElementById('nasceu').value
+const ano = Number(document.getElementById('nasceu').value)
 const sexosel = document.querySelector("input[name='sexo']:checked")
 let sexo = sexosel.value;
 const data = new Date()
